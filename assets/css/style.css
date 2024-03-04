@@ -157,13 +157,10 @@
     padding-top: 19px;
 }
 
-.y-2-top {
-    transform: translateY(-2px);
+.-mt-1 {
+    margin-top: -2px;
 }
 
-.y-2-bottom {
-    transform: translateY(2px);
-}
 
 .mt-40 {
     margin-top: 40px;
@@ -223,6 +220,14 @@
 
 }
 
+.top_-1 {
+    top: -1px;
+}
+
+.bottom_-1 {
+    bottom: -1px;
+}
+
 .twolayerheader {
     max-width: 386px;
     max-height: 386px;
@@ -279,6 +284,10 @@
 
 .bg-footer {
     background: var(--c-blackes);
+}
+
+.bg-preloder {
+    background-color: var(--c-main);
 }
 
 .hovertranfrom svg {
@@ -404,11 +413,12 @@
 
 .accordion-button:not(.collapsed) {
     background-color: unset !important;
+    padding-bottom: 12px !important;
 }
 
 .accordion-button {
     color: var(--c-blackes) !important;
-    padding-bottom: 12px !important;
+    padding: 16px !important;
     font-size: var(--fs-md) !important;
 }
 
