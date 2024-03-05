@@ -117,7 +117,6 @@
     line-height: 50px;
 }
 
-
 .lh-24 {
     line-height: 24px;
 }
@@ -125,8 +124,6 @@
 .lh-30 {
     line-height: 30px;
 }
-
-
 
 /* letter-spacing  */
 .ls-0-1 {
@@ -288,6 +285,15 @@
 
 .bg-preloder {
     background-color: var(--c-main);
+}
+
+.accodionellipes {
+    position: absolute;
+    right: 0;
+    top: -7%;
+    max-width: 385px;
+    max-height: 386px;
+    z-index: -1;
 }
 
 .hovertranfrom svg {
