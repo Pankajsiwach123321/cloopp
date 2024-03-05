@@ -389,7 +389,7 @@
 }
 
 .plus .accordion-button::after {
-    background-image: url(../images/plus.png) !important;
+    background-image: url(../svg/plus.svg) !important;
 }
 
 .blurhand {
